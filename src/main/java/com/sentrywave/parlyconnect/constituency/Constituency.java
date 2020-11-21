@@ -1,5 +1,7 @@
 package com.sentrywave.parlyconnect.constituency;
 
+import com.sentrywave.parlyconnect.common.Chamber;
+import com.sentrywave.parlyconnect.common.Sex;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -24,6 +26,16 @@ public class Constituency {
     @GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UUIDGenerator")
     @Column(updatable = false, nullable = false)
     private UUID constituencyId;
+
+    @Column(unique = true, nullable = false)
+    private String name;
+
+    @Column(nullable = false)
+    @Enumerated(EnumType.STRING)
+    private Chamber chamber;
+
+    @Column(unique = true, nullable = false)
+    private String province;
 
     @CreationTimestamp
     private Date createdAt;

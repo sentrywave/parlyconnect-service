@@ -1,3 +1,6 @@
 # ParlyConnect
 
-ParlyConnect is a civic technology that promotes Government to Citizen Interaction to increase accountability and transparency. The app allows citizens and members of parliament to communicate and share opinions. Citizens can view and vote in support or against Bills. Citizens can also petition the government through digital signatures. MPs can view how their constituents feel about a certain topic through votes and chats.
+ParlyConnect is a Civic Technology that aims to increase transparency and accountability  by facilitating Citizen to Government interaction.
+The app allows citizens to communicate with members of the National Assembly and Senate, sharing their opinions and complaints.
+Citizens can view and vote in support or against tabled Bills and petition the government through digital signatures (unique +263 prefixed phone numbers).
+Members can be informed on how their constituents feel about certain topics through polls and chats thus assisting in their perform legislative, representative and oversight functions.
